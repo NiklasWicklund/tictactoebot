@@ -1,8 +1,16 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Experience the classic game of Tic Tac Toe by playing against an AI.
 
-Currently, two official plugins are available:
+### Features
+- Play as 'X' or 'O'.
+- Choose from various board sizes: 3x3, 4x4, up to 7x7.
+- Challenge an AI that can play using different algorithms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### AI Options
+The AI opponent offers two distinct playing styles:
+
+- **Random Moves**: An AI that selects moves randomly.
+- **Negamax Algorithm**: An opponent powered by the negamax algorithm.
+
+
